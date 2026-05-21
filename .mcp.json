@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "web-search": {
+      "command": "cmd",
+      "args": ["/c", "npx", "open-websearch@latest"],
+      "env": {
+        "DEFAULT_SEARCH_ENGINE": "bing",
+        "USE_PROXY": "true",
+        "MODE": "stdio"
+      }
+    }
+  }
+}
