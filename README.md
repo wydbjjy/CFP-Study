@@ -1,168 +1,168 @@
-# CFP Exam Study Repository
+# CFP 考试学习仓库
 
-🎉 **I PASSED the CFP Exam on November 10, 2025!** 🎉
+🎉 **我在 2025 年 11 月 10 日通过了 CFP 考试！** 🎉
 
-This is my personal study repository that helped me pass the Certified Financial Planner (CFP) exam on my second attempt. After failing in November 2024, I rebuilt my study approach using AI-powered guided learning with Claude Code - and it made all the difference.
+这是我的个人学习仓库，帮助我在第二次尝试中通过了注册理财规划师（CFP）考试。在 2024 年 11 月首次失败后，我使用 Claude Code 的 AI 引导式学习重建了我的学习方法——这带来了巨大的改变。
 
-**Thanks to AI and Claude Code**, I went from a failed attempt to **82% mastery** (60/73 topics) across 23 focused study sessions, ultimately passing the exam.
+**感谢 AI 和 Claude Code**，我从一次失败走到了跨越 23 次集中学习课时的 **82% 掌握率**（60/73 个主题），最终通过了考试。
 
-**Let's connect on LinkedIn**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818) ,**Twitter(X)** [https://x.com/chenran818](https://x.com/chenran818) 和 **知乎**[https://www.zhihu.com/people/chenran](https://www.zhihu.com/people/chenran)
+**在 LinkedIn 上联系我**：[linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)，**Twitter(X)** [https://x.com/chenran818](https://x.com/chenran818) 和 **知乎** [https://www.zhihu.com/people/chenran](https://www.zhihu.com/people/chenran)
 
 ---
 
-**Final Exam Stats**:
-- **Exam Date**: November 10, 2025 ✅ PASSED
-- **Final Progress**: 82% (60/73 CFP topics mastered)
-- **Study Sessions**: 23 sessions (Oct 11 - Nov 7, 2025)
-- **Study Materials**: 2024 Dalton Review slides (not included in repo)
+**最终考试数据**：
+- **考试日期**：2025 年 11 月 10 日 ✅ 通过
+- **最终进度**：82%（已掌握 60/73 个 CFP 主题）
+- **学习课时**：23 次（2025 年 10 月 11 日 - 11 月 7 日）
+- **学习材料**：2024 Dalton Review 幻灯片（未包含在仓库中）
 
-## How This Works
+## 工作原理
 
-This repository uses Claude Code as an interactive CFP exam tutor that:
-- Teaches using the Socratic method (asking what you know first)
-- Provides concise (~200 word) explanations
-- Verifies your understanding with follow-up questions
-- Adapts teaching style based on your responses
-- **Tracks every learning session to personalize your study experience**
+本仓库使用 Claude Code 作为交互式 CFP 考试导师，它能够：
+- 使用苏格拉底式教学法（先询问你了解什么）
+- 提供简洁的解释（约 200 词）
+- 通过后续问题验证你的理解
+- 根据你的回答调整教学风格
+- **追踪每次学习课时，为你个性化定制学习体验**
 
-## Repository Structure
+## 仓库结构
 
 ```
-/sessions/                    # 23 daily learning sessions documented
-  /2025-10-11/               # One folder per study day
-  /2025-10-17/               # Sessions from Oct 11 - Nov 7
+/sessions/                    # 23 次每日学习课时记录
+  /2025-10-11/               # 每个学习日一个文件夹
+  /2025-10-17/               # 课时从 10月11日 到 11月7日
   /2025-11-07/
-  SESSION-TEMPLATE.md        # Template for documenting sessions
+  SESSION-TEMPLATE.md        # 记录课时的模板
 
-/progress/                    # Single source of truth for exam prep
-  cfp-study-tracker.md       # Comprehensive tracker with:
-                             # - All 73 CFP topics mapped
-                             # - Topics mastered (60/73)
-                             # - Knowledge gaps identified
-                             # - Study plan for remaining days
+/progress/                    # 考试备考的唯一数据来源
+  cfp-study-tracker.md       # 综合追踪器包含：
+                             # - 全部 73 个 CFP 主题映射
+                             # - 已掌握主题（60/73）
+                             # - 已识别的知识缺口
+                             # - 剩余天数的学习计划
 
-CLAUDE.md                     # AI tutor instructions (Socratic method)
-README.md                     # This file
+CLAUDE.md                     # AI 导师指令（苏格拉底式教学法）
+README.md                     # 本文件
 ```
 
-## How to Use
+## 如何使用
 
-### Daily Study Sessions
+### 每日学习课时
 
-1. Open Claude Code in this repository
-2. Ask questions about CFP topics naturally - just like talking to a tutor
-3. Answer the comprehension check questions Claude asks
-4. After each session, Claude will automatically document:
-   - What you learned
-   - What you struggled with
-   - What you mastered
-   - What to review next
+1. 在本仓库中打开 Claude Code
+2. 自然地提问 CFP 相关主题——像与导师对话一样
+3. 回答 Claude 提出的理解检查问题
+4. 每次课时后，Claude 会自动记录：
+   - 你学到了什么
+   - 你在哪些方面感到困难
+   - 你掌握了什么
+   - 下一步需要复习什么
 
-### Review Sessions
+### 复习课时
 
-When you want to review, simply ask Claude:
-- "Let's review topics I've struggled with"
-- "What should I focus on today?"
-- "Quiz me on my weak areas"
-- "Show me my progress"
+当你想复习时，直接告诉 Claude：
+- "我们来复习一下我之前感到困难的主题"
+- "今天我应该重点关注什么？"
+- "考考我薄弱的地方"
+- "展示我的学习进度"
 
-Claude will read your session history and create a personalized review based on your past performance.
+Claude 会读取你的课时历史，根据你过去的表现创建个性化的复习方案。
 
-### Track Your Progress
+### 追踪你的进度
 
-View your comprehensive study tracker at `/progress/cfp-study-tracker.md` to see:
-- Overall exam readiness (currently 82%)
-- Which domains are complete (4 major domains ✅)
-- Remaining knowledge gaps
-- Prioritized study plan for exam day
+查看 `/progress/cfp-study-tracker.md` 中的综合学习追踪器：
+- 总体考试准备程度（当前 82%）
+- 哪些领域已完成（4 个主要领域 ✅）
+- 剩余的知识缺口
+- 按考试日优先排序的学习计划
 
-## Study Philosophy
+## 学习理念
 
-**Guided Learning Approach:**
-- Conversational and judgment-free
-- Builds on your existing knowledge
-- Checks understanding before moving forward
-- Adapts to your learning style
-- Focuses on deep understanding, not just memorization
+**引导式学习方法：**
+- 对话式、无评判压力
+- 在你已有知识的基础上构建
+- 前进前检查理解程度
+- 适应你的学习风格
+- 注重深度理解，而非死记硬背
 
-## Study Materials
+## 学习材料
 
-I used the **2024 Dalton Review Slides** for my preparation (not included in this repo due to copyright). You can use your own CFP study materials - the AI tutor methodology works with any content.
+我使用 **2024 Dalton Review 幻灯片**进行备考（因版权问题未包含在本仓库中）。你可以使用自己的 CFP 学习材料——AI 导师方法适用于任何内容。
 
-## Free Study Resources
+## 免费学习资源
 
-In addition to the Dalton Review materials, here are some excellent **free resources** that can supplement your CFP exam prep:
+除了 Dalton Review 材料外，以下是一些优秀的**免费资源**，可以补充你的 CFP 考试备考：
 
-**Podcasts & Audio:**
-- [Open Exam Prep Podcast](https://open.spotify.com/show/55EmWfdtPaK641q4Rk3mI1) - Free CFP exam prep podcast on Spotify
-- [Financial Planning Essentials Playlist](https://open.spotify.com/playlist/6GUIZvnpaiOiYmXkanqwZ8) - Study music playlist on Spotify
+**播客和音频：**
+- [Open Exam Prep 播客](https://open.spotify.com/show/55EmWfdtPaK641q4Rk3mI1) - Spotify 上的免费 CFP 考试备考播客
+- [Financial Planning Essentials 播放列表](https://open.spotify.com/playlist/6GUIZvnpaiOiYmXkanqwZ8) - Spotify 上的学习音乐播放列表
 
-**Video Content:**
-- [Open Exam Prep YouTube](https://www.youtube.com/@Open-exam-prep) - Free video content covering CFP exam topics
+**视频内容：**
+- [Open Exam Prep YouTube](https://www.youtube.com/@Open-exam-prep) - 涵盖 CFP 考试主题的免费视频内容
 
-**Website:**
-- [open-exam-prep.com](https://open-exam-prep.com/) - Additional free resources and study materials
+**网站：**
+- [open-exam-prep.com](https://open-exam-prep.com/) - 额外的免费资源和学习材料
 
-These free resources are great for passive learning during commutes, workouts, or downtime.
+这些免费资源非常适合在通勤、锻炼或休息时间进行被动学习。
 
-## Key Features
+## 核心特点
 
-**Personalized Learning**:
-- 23 documented study sessions with detailed notes
-- Socratic teaching method (builds on what you already know)
-- Adaptive explanations based on your responses
-- Practice problems tailored to your weak areas
+**个性化学习**：
+- 23 次有详细记录的学习课时
+- 苏格拉底式教学法（在你已有知识基础上构建）
+- 根据你的回答自适应解释
+- 针对薄弱环节定制的练习题
 
-**Comprehensive Tracking**:
-- Every session automatically documented
-- Knowledge gaps identified and tracked
-- Topics mastered with confidence levels
-- Progress measured against exam weights
+**全面追踪**：
+- 每次课时自动记录
+- 识别并追踪知识缺口
+- 已掌握主题附信心水平
+- 根据考试权重衡量进度
 
-**Evidence-Based Approach**:
-- All answers verified with authoritative sources (IRS.gov, CFP Board)
-- No guessing on technical questions
-- Citations provided for complex rules
-- Focus on understanding "why" not just "what"
+**循证方法**：
+- 所有答案均通过权威来源验证（IRS.gov、CFP Board）
+- 技术性问题绝不猜测
+- 复杂规则附引用来源
+- 注重理解"为什么"而不仅仅是"是什么"
 
-## How to Use This Repository for Your Own CFP Exam Prep
+## 如何使用本仓库进行你自己的 CFP 考试备考
 
-Want to use this AI-powered study system for your own CFP exam preparation? It's simple:
+想用这套 AI 驱动的学习系统来准备你自己的 CFP 考试？很简单：
 
-1. **Clone this repository**:
+1. **克隆本仓库**：
    ```bash
    git clone https://github.com/chenran818/CFP-Study.git
    cd CFP-Study
    ```
 
-2. **Clear my study history** (start fresh):
+2. **清除我的学习历史**（重新开始）：
    ```bash
    rm -rf progress/ sessions/
    ```
 
-3. **Run Claude Code**:
+3. **运行 Claude Code**：
    ```bash
    claude-code
    ```
 
-4. **That's it!** Start asking CFP questions and Claude will:
-   - Teach you using the Socratic method
-   - Create new `progress/` and `sessions/` folders automatically
-   - Track your learning journey just like it did for me
-   - Adapt to your learning style
+4. **就这么简单！** 开始提问 CFP 问题，Claude 会：
+   - 使用苏格拉底式教学法教导你
+   - 自动创建新的 `progress/` 和 `sessions/` 文件夹
+   - 像我一样追踪你的学习历程
+   - 适应你的学习风格
 
-The `CLAUDE.md` file contains all the instructions for how Claude should tutor you. **It works magically!**
+`CLAUDE.md` 文件包含了 Claude 如何辅导你的所有指令。**它真的很神奇！**
 
-## Getting Started
+## 开始使用
 
-Just start a conversation with Claude Code and ask your first CFP question. Claude will guide you from there while automatically tracking your progress.
+直接与 Claude Code 开始对话，问你的第一个 CFP 问题。Claude 会引导你前进，同时自动追踪你的进度。
 
 ---
 
-## About the Author
+## 关于作者
 
-After failing the CFP exam in November 2024, I knew I needed a different approach. Traditional study methods weren't working for me. Using Claude Code as my AI study partner transformed my preparation - the Socratic teaching method, personalized feedback, and systematic progress tracking made complex financial planning concepts finally click.
+在 2024 年 11 月 CFP 考试失败后，我知道自己需要不同的方法。传统的学习方式对我不起作用。使用 Claude Code 作为我的 AI 学习伙伴彻底改变了我的备考方式——苏格拉底式教学法、个性化反馈和系统化的进度追踪，最终让复杂的理财规划概念豁然开朗。
 
-If you're preparing for the CFP exam or any professional certification, I hope this repository inspires you to leverage AI tools in your learning journey.
+如果你正在备考 CFP 考试或任何专业认证，希望这个仓库能激励你在学习之旅中善用 AI 工具。
 
-**Connect with me**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
+**联系我**：[linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
