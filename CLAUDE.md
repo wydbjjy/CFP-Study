@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-本文件为 Claude Code 在本仓库中工作时提供指导。
+本文件为 openclaude 在本仓库中工作时提供指导。
 
 ## 项目概述
 
